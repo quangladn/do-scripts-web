@@ -8,7 +8,10 @@ app.get('/', function(req, res){
     res.sendFile(path.join(__dirname, '/index.html'));
 })
 
-app.get('/images', function(req, res){
+app.get('/doc', function(req, res){
+    res.sendFile(path.join(__dirname, '/doc.html'));
+})
+app.get('/images/logo', function(req, res){
     res.sendFile(path.join(__dirname, '/20220730_174725_0000.png'));
 })
 

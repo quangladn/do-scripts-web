@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Do Script</title>
+<style>
+* {
+  font-family:'Fira Code'
+}
+html {
+  width:100%;
+  height:105rem;
+  background: linear-gradient(135deg ,#29B4DE 0%,#FFFF99 100%);
+  background-repeat:repeat;
+}
+.box {
+  padding-top:3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+.box div {
+  width: 70%;
+  height: 100rem;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.38);
+  padding-left:150px;
+  padding-rightt:150px;
+}
+.title {
+  text-align:center;
+}
+.doc {
+  text-align:left;
+  font-size:24px;
+}
+
+</style>
+</head>
+<body>
+  <div class="box">
+    <div >
+      <h1 class="title">do script</h1>
+
+      <p class="doc">
+        <h2>out</h2>
+        <div style="background-color:#717D7E;width:340px;height:40px;padding:10px;padding-top:0.5px;text-align:left;">
+          <h4>out "hello world"</h4>
+        </div>
+        <h3>syntax: </h3>
+        <div style="background-color:#717D7E;width:340px;height:40px;padding:10px;padding-top:0.5px;text-align:left;">
+          <h4>out content</h4>
+        </div>
+        <h2>input</h2>
+        <div style="background-color:#717D7E;width:340px;height:90px;padding:10px;padding-top:0.5px;text-align:left;">
+          <h4>input "what your name" $name</h4>
+          <h4>out $name</h4>
+        </div>
+        <h3>syntax: </h3>
+        <div style="background-color:#717D7E;width:340px;height:40px;padding:10px;padding-top:0.5px;text-align:left;">
+          <h4>input question varName</h4>
+        </div>
+        <h2>if statemment</h2>
+        <div style="background-color:#717D7E;width:340px;height:170px;padding:10px;padding-top:0.5px;text-align:left;">
+          <h4>$x = 1</h4>
+          <h4>$y = 2</h4>
+          <h4>if $x != $y ~</h4>
+          <h4>@ out "x != y"</h4>
+        </div>
+        <h3>syntax: </h3>
+        <div style="background-color:#717D7E;width:340px;height:90px;padding:10px;padding-top:0.5px;text-align:left;">
+          <h4>if condition ~</h4>
+          <h4>@ code ~</h4>
+        </div>
+        <p class="doc">you can use tab instead @.If you set tab is \t</p>
+        <h2>command</h2>
+        <p class="doc">you can use any type data but the previous code has no keyword function</p>
+      </p>
+
+      <p class="doc">
+        <h2>__shell__.doSys</h2>
+        <h3>run</h3>
+        <div style="background-color:#717D7E;width:340px;height:40px;padding:10px;padding-top:0.5px;text-align:left;">
+          <h4>doS __shell__.doSys</h4>
+        </div>
+        <h3>syntax like normal and added: </h3>
+        <ul>
+          <li>exit</li>
+          <li>reset: reset all</li>
+          <li>__run__: run all code in shell and reset</li>
+        </ul>
+      </p>
+      <a  href="/" >
+        <button >home</button>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
